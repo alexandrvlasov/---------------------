@@ -82,10 +82,10 @@ button {
 
 .card__info {
     display: flex;
-    justify-content: space-between; /* Элементы по краям */
+    justify-content: space-between;
     align-items: center;
     margin: 89px 43px 10px 74px;
-    width: 100%; /* Задайте ширину для .card__info, если необходимо */
+    width: 100%;
 }
 
 .card__important_info {
@@ -103,6 +103,6 @@ button {
 }
 
 #map {
-    width: 100%; /* Ширина карты 100% */
-    height: 500px; /* Высота карты */
+    width: 100%;
+    height: 500px;
 }
