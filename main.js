@@ -43,7 +43,7 @@ function isValidLongitude(lon) {
 }
 
 async function fetchWeatherData(lat, lon) {
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${lon}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${lon}`;
 
     const response = await fetch(url);
     const data = await response.json();
